@@ -5,6 +5,7 @@ This filter makes it easier to do things like creating iptables rules, or settin
 
 ## Requirements
 The Python module `netaddr` is required on the host you're running Ansible from.
+
 Create a new directory in your ansible directory called `filter_plugins`, then copy `filters.py` into the directory.
 
 ## Example
