@@ -1,6 +1,6 @@
 # ansible-nic-filters
 ## Motivation
-The standard format of `ansible_facts` is sometimes difficult to work with when using Ansible templates, so I created a custom filter to parse the NIC information into a more useful dictionary format. 
+The format of `ansible_facts` is sometimes difficult to work with when using Ansible templates and network adapters, so I created a custom filter to parse the NIC information into a more useful dictionary format. 
 This filter makes it easier to do things like creating iptables rules, or setting services to listen only on certain types of interfaces/IP addresses.
 
 ## Requirements
