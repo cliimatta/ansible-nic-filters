@@ -88,7 +88,7 @@ Loopback Interfaces:
   Interface name: lo, IP: 127.0.0.1
 ```
 
-The filter has been tested only with the following versions:
+The filter has been tested only with the following versions, and only on Linux-based OS:
 ```
 ansible == 11.1.0
 ansible-core == 2.18.1
